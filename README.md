@@ -1,6 +1,7 @@
 # Bitcoin-Data-Analysis
 
 The provided Python code comprehensively analyzes Bitcoin price data using various libraries and techniques. It starts by importing essential libraries such as Pandas, NumPy, Seaborn, Matplotlib, and Plotly, which are critical for data manipulation and visualization in data science.
+
 The code then loads Bitcoin price data from a CSV file into a Pandas DataFrame. It performs initial exploratory steps by displaying the first few rows of the dataset, checking the column names and shapes, and providing basic summary statistics.
 
 Data preprocessing follows, involving the conversion of the 'Date' column into a DateTime format for chronological analysis. The script also identifies the earliest and latest dates in the dataset and handles missing values. The data is then reorganized and sorted chronologically to ensure coherence for subsequent analysis.
